@@ -1,0 +1,294 @@
+/* Vh
+Resize the height of the browser window to see how the font-size of h1 changes.
+1vh = 1% of viewport height. 
+*/
+
+/* Blok element dan inline e */
+
+/* Btn link: alamat sebelum di kunjungi dan visited : sesudah */
+
+/* inline : tidak bisa mengatur lebar dan tinggi  dan inline-block : bisa */
+
+/* ------------------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html {
+  background-color: white;
+  color: rgb(99, 99, 99);
+  font-size: 20px;
+
+  /* Jenis fonrt */
+  font-family: 'Lato', 'Arial', 'sans-serif';
+  /* Ukuran font */
+  font-weight: 300;
+  /* Rendering font sempurna */
+  text-rendering: optimizeLegibility;
+}
+
+
+/* ------------------------------------------------------- */
+/* REUSABLE COMPONENETS */
+/* ------------------------------------------------------- */
+
+.row {
+  /* Lebar Halaman Website PC */
+
+  width: 1140px;
+  /* Atas, bawah dan Kiri, kanan */
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0
+}
+
+.box {
+  padding: 5px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+/* ---- HEADINGS ---- */
+h1,
+h2,
+h3 {
+  /* margin-top: 0; */
+  /* Merubah bentuk text */
+  text-transform: uppercase;
+
+  /* Spasi antara kata */
+  font-weight: 300;
+
+}
+
+h1 {
+  color: rgb(255, 251, 240);
+  /* Ukuran global font 20px, font-size dari 200%nya font global  */
+  font-size: 240%;
+  margin-bottom: 20px;
+  word-spacing: 4px;
+  /* Spasi antara huruf */
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  text-align: center;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+  /* Spasi antara huruf */
+  letter-spacing: 1px;
+}
+
+/* Menambah content sesudah h2 */
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #e67e22;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+
+}
+
+.section-feature .long-copy {
+  margin-bottom: 30px;
+}
+
+
+
+/* ---- PARAGRAPHS ---- */
+
+.long-copy {
+  /* background-color: #e67e22; */
+  line-height: 145%;
+  /* Lebar Seluruh Halaman 100% */
+  /* Terpakai 70%, sisah 30% */
+  width: 70%;
+  /* Untuk membuat rata tengah 30%/2 = 15% */
+  margin-left: 15%;
+  text-align: center;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+  text-align: justify;
+}
+
+/* ---- ICONS ---- */
+
+.big-icon {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+}
+
+
+
+/* ---- BUTTONS ---- */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-transform: capitalize;
+  /* Format text link */
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #d35400;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #d35400;
+  border: 1px solid #d35400;
+  color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  /* background-color: teal; */
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  /* background-color: teal; */
+  border: 1px solid #d35400;
+  color: #fff;
+}
+
+
+/* ------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------- */
+
+header {
+  /* Background di atas image linear-gradient */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/IMG-20191023-WA0294.jpg);
+  /* Background sesuai lebar halaman */
+  background-size: cover;
+  /* Posisi Element Header */
+  background-position: center;
+  height: 100vh;
+}
+
+/*  */
+.hero-text-box {
+  /* background-color: aqua; */
+  width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-top: 20px;
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  font-size: 90%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+
+}
+
+
+/* ------------------------------------------------------- */
+/* MEALS SETUP */
+/* ------------------------------------------------------- */
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  /* Menyembunyikan efek css 3 */
+  overflow: hidden;
+}
+
+/* Membuat lebar image 100% dari lebar class: meals-photo */
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: 40vh;
+  /* Sesuai lebar image */
+  object-fit: cover;
+  /* Css3 membuat elemen menjadi lebar 100% x 1.15c */
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.meal-photo img:hover {
+  /* Css3 membuat elemen menjadi lebar 100% x 1.15c */
+  transform: scale(1.03);
+}
