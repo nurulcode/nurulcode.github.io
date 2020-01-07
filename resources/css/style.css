@@ -1,6 +1,6 @@
 /* Vh
 Resize the height of the browser window to see how the font-size of h1 changes.
-1vh = 1% of viewport height. 
+1vh = 1% of viewport height.
 */
 
 /* Blok element dan inline e */
@@ -17,6 +17,9 @@ Resize the height of the browser window to see how the font-size of h1 changes.
   margin: 0;
   padding: 0;
   box-sizing: border-box
+}
+.ion-paper-airplane {
+    margin-left: 5px
 }
 
 html {
@@ -147,7 +150,7 @@ h3 {
 .btn:visited {
   display: inline-block;
   margin-right: 15px;
-  padding: 10px 30px;
+  padding: 15px 60px;
   font-weight: 300;
   text-transform: capitalize;
   /* Format text link */
