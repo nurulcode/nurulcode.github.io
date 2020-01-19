@@ -355,6 +355,7 @@ header {
 
 .sticky .main-nav {
   margin-top: 18px;
+  padding: 15px 0;
 }
 
 .sticky .main-nav li a:link,
