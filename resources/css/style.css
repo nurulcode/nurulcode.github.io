@@ -110,7 +110,7 @@ h2:after {
   display: block;
   height: 2px;
   width: 100px;
-  background-color: #e67e22;
+  background-color: #1abc9c;
   content: " ";
   margin: 0 auto;
   margin-top: 30px;
@@ -141,7 +141,7 @@ h5 {
 /* ---- PARAGRAPHS ---- */
 
 .long-copy {
-  /* background-color: #e67e22; */
+  /* background-color: #1abc9c; */
   line-height: 145%;
   /* Lebar Seluruh Halaman 100% */
   /* Terpakai 70%, sisah 30% */
@@ -163,7 +163,7 @@ h5 {
 .big-icon {
   font-size: 300%;
   display: block;
-  color: #e67e22;
+  color: #1abc9c;
   margin-bottom: 10px;
 }
 
@@ -171,7 +171,7 @@ h5 {
   display: inline-block;
   width: 30px;
   text-align: center;
-  color: #e67e22;
+  color: #1abc9c;
   font-size: 120%;
 
   line-height: 120%;
@@ -183,9 +183,9 @@ h5 {
 /* ---- LINKS ---- */
 a:link,
 a:visited {
-  color: #e67e22;
+  color: #1abc9c;
   text-decoration: none;
-  border-bottom: 1px solid #e67e22;
+  border-bottom: 1px solid #1abc9c;
   padding-bottom: 1px;
   transition: border-bottom 0.3s, color 0.3s;
   -webkit-transition: border-bottom 0.3s, color 0.3s;
@@ -223,36 +223,36 @@ input[type="submit"] {
 .btn:active,
 input[type="submit"]:hover,
 input[type="submit"]:active {
-  background-color: #d35400;
+  background-color: #16a085;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type="submit"] {
-  background-color: #e67e22;
-  border: 1px solid #e67e22;
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
   color: #fff;
   margin-bottom: 10px;
 }
 
 .btn-full:hover,
 .btn-full:active {
-  background-color: #d35400;
-  border: 1px solid #d35400;
+  background-color: #16a085;
+  border: 1px solid #16a085;
   color: #fff;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
   /* background-color: teal; */
-  border: 1px solid #e67e22;
-  color: #e67e22;
+  border: 1px solid #1abc9c;
+  color: #1abc9c;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
   /* background-color: teal; */
-  border: 1px solid #d35400;
+  border: 1px solid #16a085;
   color: #fff;
 }
 
@@ -309,9 +309,13 @@ header {
   margin: 5px 0;
 }
 
-/* nav {
-  background-color: #00aced;
-} */
+nav {
+  background-color: #1abc9cf8;
+  position: fixed;
+  padding-bottom: 15px;
+  width: 100%;
+  z-index: 9999;
+}
 /* Main Navigation */
 .main-nav {
   float: right;
@@ -342,7 +346,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #1abc9c;
 }
 
 /* Mobail Navigation */
@@ -371,8 +375,8 @@ header {
   -moz-transition: background-color 0.5s, box-shadow 0.5s;
   -ms-transition: background-color 0.5s, box-shadow 0.5s;
   -o-transition: background-color 0.5s, box-shadow 0.5s;
-  background-color: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 2px 2px #efefef;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 1px #efefef;
 }
 
 .sticky .main-nav {
@@ -394,7 +398,7 @@ header {
 }
 
 .main-nav-active li a {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #1abc9c;
 }
 
 /* ------------------------------------------------------- */
@@ -492,8 +496,8 @@ header {
 
 .works-step div {
   /* .number-step { */
-  color: #e67e22;
-  border: 2px solid #e67e22;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
   display: inline-block;
   border-radius: 50%;
   height: 55px;
@@ -609,7 +613,7 @@ cite img {
   font-size: 320%;
   font-weight: 200;
   margin-bottom: 15px;
-  color: #e67e22;
+  color: #1abc9c;
 }
 
 
@@ -678,7 +682,7 @@ cite img {
   font-size: 180%;
   margin-bottom: 10px;
   font-weight: 300;
-  color: #e67e22;
+  color: #1abc9c;
 }
 
 .plan-price span {
@@ -829,7 +833,7 @@ footer p {
 }
 
 .sticky .link.active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #1abc9c;
 }
 
 /* ------------------------------------------------------- */
@@ -869,4 +873,25 @@ footer p {
 
 .section-cities .col {
   text-align: center;
+}
+
+.section-contact .col {
+  text-align: center;
+  font-size: 90%;
+  padding: 20px;
+}
+
+.section-form {
+  line-height: 145%;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.section-form .col:last-of-type {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.section-form .span-1-of-3 {
+  text-align: right;
 }

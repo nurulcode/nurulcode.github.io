@@ -94,7 +94,15 @@ $(document).ready(function() {
   );
   $(".js--wp-3").waypoint(
     function(direction) {
-      $(".js--wp-3").addClass("animated bounceInDown");
+      $(".js--wp-3").addClass("animated fadeIn");
+    },
+    {
+      offset: "40%"
+    }
+  );
+  $(".js--wp-4").waypoint(
+    function(direction) {
+      $(".js--wp-4").addClass("animated bounceInDown");
     },
     {
       offset: "40%"
