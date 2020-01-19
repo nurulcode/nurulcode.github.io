@@ -232,6 +232,7 @@ input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .btn-full:hover,
@@ -267,7 +268,7 @@ input[type="submit"] {
 header {
   /* Background di atas image linear-gradient */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/IMG-20191023-WA0294.jpg);
+    url(img/hero.png);
   /* Background sesuai lebar halaman */
   background-size: cover;
   /* Posisi Element Header */
@@ -530,7 +531,7 @@ header {
 
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/back-customers.jpg);
+    url(img/hero2.jpg);
   background-size: cover;
   /* Color semua font */
   color: #fff;
