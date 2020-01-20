@@ -84,12 +84,20 @@ $(document).ready(function() {
       offset: "40%"
     }
   );
-  $(".js--wp-2").waypoint(
+  $(".js--wp-2-1").waypoint(
     function(direction) {
-      $(".js--wp-2").addClass("animated bounceInDown");
+      $(".js--wp-2-1").addClass("animated bounceInLeft");
     },
     {
-      offset: "40%"
+      offset: "50%"
+    }
+  );
+  $(".js--wp-2-2").waypoint(
+    function(direction) {
+      $(".js--wp-2-2").addClass("animated bounceInRight");
+    },
+    {
+      offset: "100%"
     }
   );
   $(".js--wp-3").waypoint(
@@ -118,9 +126,11 @@ $(document).ready(function() {
     if (icon.hasClass("ion-navicon-round")) {
       icon.addClass("ion-close-round");
       icon.removeClass("ion-navicon-round");
+      $("nav").addClass("nav");
     } else {
       icon.addClass("ion-navicon-round");
       icon.removeClass("ion-close-round");
+      $("nav").removeClass("nav");
     }
   });
 });
