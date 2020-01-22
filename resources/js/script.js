@@ -113,7 +113,7 @@ $(document).ready(function() {
       $(".js--wp-4").addClass("animated bounceInDown");
     },
     {
-      offset: "40%"
+      offset: "70%"
     }
   );
 

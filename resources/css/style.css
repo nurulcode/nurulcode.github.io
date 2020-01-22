@@ -1,6 +1,6 @@
 /* Vh
 Resize the height of the browser window to see how the font-size of h1 changes.
-1vh = 1% of viewport height. 
+1vh = 1% of viewport height.
 */
 
 /* Blok element dan inline e */
@@ -30,7 +30,7 @@ body {
   /* Jenis fonrt */
   font-family: "Lato", "Arial", "sans-serif";
   /* Ukuran font */
-  font-weight: 300;
+  font-weight: 400;
   /* Rendering font sempurna */
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -82,7 +82,7 @@ h3 {
   text-transform: uppercase;
   z-index: 10;
   /* Spasi antara kata */
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1 {
@@ -127,7 +127,7 @@ h4 {
 }
 
 h5 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 100%;
   margin-bottom: 30px;
   color: rgb(255, 251, 240);
@@ -207,7 +207,7 @@ input[type="submit"] {
   display: inline-block;
   margin-right: 15px;
   padding: 10px 30px;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: capitalize;
   /*Formattextlink*/
   text-decoration: none;
@@ -620,7 +620,7 @@ cite img {
 
 .plan-price span {
   font-size: 30%;
-  font-weight: 300;
+  font-weight: 400;
 
 }
 
@@ -682,13 +682,13 @@ cite img {
 .plan-price {
   font-size: 180%;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 400;
   color: #e67e22;
 }
 
 .plan-price span {
   font-size: 30%;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .plan-price-meal {
@@ -890,7 +890,7 @@ footer p {
 .section-form {
   line-height: 145%;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .section-form .col:last-of-type {

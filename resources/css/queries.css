@@ -127,9 +127,10 @@
     padding: 10px 0;
   }
 
-  .sticky .mobile-nav-icon {
+  /* .sticky .mobile-nav-icon {
     margin-top: 10px;
-  }
+  } */
+
   .sticky .mobile-nav-icon i {
     color: #555;
   }
