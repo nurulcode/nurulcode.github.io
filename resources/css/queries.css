@@ -185,6 +185,13 @@
     float: none;
     text-align: center;
   }
+
+  .big-icon {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
