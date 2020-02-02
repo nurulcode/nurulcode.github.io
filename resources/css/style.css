@@ -931,3 +931,7 @@ footer p {
 .section-form .span-1-of-3 {
   text-align: right;
 }
+
+p.content-one {
+  display: none;
+}
