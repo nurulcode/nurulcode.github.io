@@ -299,18 +299,17 @@ header {
 }
 
 .logo {
-  height: 100px;
+  height: 150px;
   width: auto;
-  margin-top: 20px;
+  margin-top: -10px;
   float: left;
 }
 
 .logo-black {
   display: none;
-  height: 50px;
+  height: 100px;
   width: auto;
   float: left;
-  margin: 5px 0;
 }
 
 .nav {
@@ -374,11 +373,11 @@ header {
   left: 0;
   width: 100%;
   z-index: 9999;
-  transition: background-color 0.5s, box-shadow 0.5s;
-  -webkit-transition: background-color 0.5s, box-shadow 0.5s;
-  -moz-transition: background-color 0.5s, box-shadow 0.5s;
-  -ms-transition: background-color 0.5s, box-shadow 0.5s;
-  -o-transition: background-color 0.5s, box-shadow 0.5s;
+  transition: background-color 0.3s, box-shadow 0.3;
+  -webkit-transition: background-color 0.3s, box-shadow 0.3;
+  -moz-transition: background-color 0.3s, box-shadow 0.3;
+  -ms-transition: background-color 0.3s, box-shadow 0.3;
+  -o-transition: background-color 0.3s, box-shadow 0.3;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 1px 1px #efefef;
 }
@@ -581,10 +580,6 @@ cite img {
   margin-right: 15px;
   /*Elementmenjadiratatengah(mid,center),atasbawah*/
   vertical-align: middle;
-  -webkit-border-radius: ;
-  -moz-border-radius: ;
-  -ms-border-radius: ;
-  -o-border-radius: ;
 }
 
 /* ------------------------------------------------------- */
@@ -884,7 +879,7 @@ footer p {
 .js--wp-4.animated {
   opacity: 1;
 }
-
+/* go to top */
 .top {
   position: fixed;
   right: 20px;
@@ -892,9 +887,18 @@ footer p {
   align-content: center;
   align-items: center;
   font-size: 200%;
+  background-color: #555;
+  padding: 2px;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
 
-.top a {
+.top a,
+.top a:hover {
+  color: #d35400;
   border: none;
 }
 

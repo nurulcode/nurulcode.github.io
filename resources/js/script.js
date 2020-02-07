@@ -5,22 +5,6 @@ $(document).ready(function() {
   //   offset: '25%'
   // })
 
-  // Navigation
-  $(".js--section-features").waypoint(
-    function(direction) {
-      if (direction == "down") {
-        $("nav").addClass("sticky");
-        $("#go-to-top").addClass("top");
-      } else {
-        $("nav").removeClass("sticky");
-        $("#go-to-top").removeClass("top");
-      }
-    },
-    {
-      offset: "25%"
-    }
-  );
-
   // Scroll on buttons
 
   $(".js--scroll-to-plans").click(function() {
@@ -133,4 +117,37 @@ $(document).ready(function() {
       $("nav").removeClass("nav");
     }
   });
+
+  // Navigation;
+  $(".js--section-features").waypoint(
+    function(direction) {
+      console.log(direction);
+      if (direction == "down") {
+        $("nav").addClass("sticky");
+        $("#go-to-top").addClass("top bounceInRight");
+      } else {
+        $("nav").removeClass("sticky");
+        $("#go-to-top").removeClass("top bounceInRight");
+      }
+    },
+    {
+      offset: "70%"
+    }
+  );
+
+  // window.onscroll = function() {
+  //   myFunction();
+  // };
+
+  // var header = document.getElementById("myHeader");
+  // var sticky = header.offsetTop;
+
+  // console.log(window.pageYOffset, sticky);
+  // function myFunction() {
+  //   if (window.pageYOffset > sticky) {
+  //     header.classList.add("sticky");
+  //   } else {
+  //     header.classList.remove("sticky");
+  //   }
+  // }
 });

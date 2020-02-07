@@ -88,13 +88,14 @@
   }
 
   .logo {
-    height: 70px;
+    height: 100px;
+    margin-top: 0px;
     z-index: 9999;
   }
 
-  /* .logo-black {
-    margin-top: 35px;
-  } */
+  .logo-black {
+    /* margin-top: 15px; */
+  }
 
   .main-nav {
     display: none;
