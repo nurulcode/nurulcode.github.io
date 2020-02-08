@@ -132,6 +132,7 @@ h5 {
   margin-bottom: 30px;
   color: rgb(255, 251, 240);
   text-transform: capitalize;
+  line-height: 160%;
 }
 
 .section-feature .long-copy {
