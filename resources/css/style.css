@@ -143,14 +143,14 @@ h5 {
 
 .long-copy {
   /* background-color: #d6b161; */
-  line-height: 145%;
+  line-height: 150%;
   /* Lebar Seluruh Halaman 100% */
   /* Terpakai 70%, sisah 30% */
   width: 70%;
   /* Untuk membuat rata tengah 30%/2 = 15% */
   margin-left: 15%;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .box p {
