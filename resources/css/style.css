@@ -788,6 +788,7 @@ footer {
   list-style: none;
   float: right;
   font-size: 25px;
+  text-align: center;
 }
 
 /* Membuat menjadi horizontal */
