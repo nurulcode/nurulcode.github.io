@@ -787,6 +787,7 @@ footer {
 .social-links {
   list-style: none;
   float: right;
+  font-size: 25px;
 }
 
 /* Membuat menjadi horizontal */
