@@ -73,6 +73,11 @@ figure {
   margin: 0;
 }
 
+p {
+  color: #ccc;
+  line-height: 175%;
+}
+
 /* ---- HEADINGS ---- */
 h1,
 h2,
@@ -104,6 +109,7 @@ h2 {
   word-spacing: 2px;
   /* Spasi antara huruf */
   letter-spacing: 1px;
+  font-weight: 400;
 }
 
 /* Menambah content sesudah h2 */
@@ -115,6 +121,7 @@ h2:after {
   content: " ";
   margin: 0 auto;
   margin-top: 30px;
+  
 }
 
 h3 {
@@ -125,6 +132,7 @@ h3 {
 h4 {
   font-size: 80%;
   margin-bottom: 15px;
+  color: #ccc;
 }
 
 h5 {
