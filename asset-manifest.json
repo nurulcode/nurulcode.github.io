@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nurulcode.github.io/static/css/main.db01b3d2.css",
+    "main.js": "/nurulcode.github.io/static/js/main.47c6d18c.js",
+    "static/js/787.9686f49b.chunk.js": "/nurulcode.github.io/static/js/787.9686f49b.chunk.js",
+    "static/media/open-simrs.png": "/nurulcode.github.io/static/media/open-simrs.8558b6c74de2cc98ecd5.png",
+    "static/media/nurul.jpg": "/nurulcode.github.io/static/media/nurul.858e675ec722e7f481f2.jpg",
+    "static/media/bananas.png": "/nurulcode.github.io/static/media/bananas.edee0518003b5fed0e96.png",
+    "index.html": "/nurulcode.github.io/index.html",
+    "main.db01b3d2.css.map": "/nurulcode.github.io/static/css/main.db01b3d2.css.map",
+    "main.47c6d18c.js.map": "/nurulcode.github.io/static/js/main.47c6d18c.js.map",
+    "787.9686f49b.chunk.js.map": "/nurulcode.github.io/static/js/787.9686f49b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db01b3d2.css",
+    "static/js/main.47c6d18c.js"
+  ]
+}
