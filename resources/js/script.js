@@ -1,7 +1,4 @@
 $(document).ready(function() {
-
-  window.location.href = "https://nurulcode.github.io/personal";
-
   // var waypoints = $('#handler-first').waypoint(function(direction) {
   //   notify(this.element.id + ' hit 25% from top of window')
   // }, {
