@@ -9,11 +9,16 @@
 
 body {
   background: lightblue;
-  /*background: #424242;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  /* Hapus flex agar scroll bekerja */
+  display: block;
+
+  /* Optional: agar scroll lebih smooth */
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -281,5 +286,26 @@ p {
 
   .skills .box {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  html, body {
+    height: auto !important;
+    overflow-y: auto !important;
+  }
+
+  .container {
+    margin: 10px;
+    grid-template-columns: 1fr;
+    min-height: auto;
+    height: auto;
+  }
+
+  .right_Side, .left_Side {
+    padding: 20px;
+  }
+
+  .profileText .imgBx {
+    width: 150px;
+    height: 150px;
   }
 }
