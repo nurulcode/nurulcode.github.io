@@ -14,20 +14,19 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 
-  /* Hapus flex agar scroll bekerja */
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  /* Optional: agar scroll lebih smooth */
   scroll-behavior: smooth;
 }
 
 .container {
-  position: relative;
   width: 100%;
   max-width: 1100px;
   min-height: 1000px;
   background: #fff;
-  margin: 50px;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
