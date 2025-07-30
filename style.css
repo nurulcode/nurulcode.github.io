@@ -304,25 +304,36 @@ p {
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .container {
     margin: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto; /* Tambahkan ini */
+    display: flex; /* Ubah ke flex untuk mobile */
+    flex-direction: column; /* Tumpuk vertikal */
     min-height: auto;
     height: auto;
-    overflow: visible; /* Pastikan overflow visible */
   }
 
-  .left_Side {
-    position: relative !important; /* Pastikan left_Side tetap terlihat */
-    width: 100% !important;
-    padding: 20px !important;
-  }
-
+  .left_Side, 
   .right_Side {
-    width: 100% !important;
-    padding: 20px !important;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0; /* Hilangkan margin di mobile kecil */
+    min-height: 0; /* Reset min-height */
+  }
+
+  html, body {
+    overflow-y: auto;
+  }
+
+  .profileText .imgBx {
+    width: 150px;
+    height: 150px;
   }
 }
 
