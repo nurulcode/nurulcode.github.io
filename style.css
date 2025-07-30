@@ -287,11 +287,6 @@ p {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  html, body {
-    height: auto !important;
-    overflow-y: auto !important;
-  }
-
   .container {
     margin: 10px;
     grid-template-columns: 1fr;
@@ -306,5 +301,44 @@ p {
   .profileText .imgBx {
     width: 150px;
     height: 150px;
+  }
+}
+
+@media (max-width:1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto; /* Tambahkan ini */
+    min-height: auto;
+    height: auto;
+    overflow: visible; /* Pastikan overflow visible */
+  }
+
+  .left_Side {
+    position: relative !important; /* Pastikan left_Side tetap terlihat */
+    width: 100% !important;
+    padding: 20px !important;
+  }
+
+  .right_Side {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
+
+@media (max-width:600px) {
+  html, body {
+    height: auto !important;
+    overflow-y: auto !important;
+  }
+
+  .container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .left_Side, .right_Side {
+    width: 100% !important;
+    padding: 20px !important;
   }
 }
