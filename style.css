@@ -337,19 +337,18 @@ p {
   }
 }
 
-@media (max-width:600px) {
-  html, body {
-    height: auto !important;
-    overflow-y: auto !important;
-  }
-
+@media (max-width: 600px) {
   .container {
-    display: flex !important;
-    flex-direction: column !important;
+    margin: 0; /* Hilangkan margin di mobile kecil */
+    min-height: 0; /* Reset min-height */
   }
 
-  .left_Side, .right_Side {
-    width: 100% !important;
-    padding: 20px !important;
+  html, body {
+    overflow-y: auto;
+  }
+
+  .profileText .imgBx {
+    width: 150px;
+    height: 150px;
   }
 }
