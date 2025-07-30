@@ -9,24 +9,20 @@
 
 body {
   background: lightblue;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-
+  /*background: #424242;*/
   display: flex;
   justify-content: center;
   align-items: center;
-
-  scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 .container {
+  position: relative;
   width: 100%;
   max-width: 1100px;
   min-height: 1000px;
   background: #fff;
-  margin: 50px auto;
+  margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -285,70 +281,5 @@ p {
 
   .skills .box {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .container {
-    margin: 10px;
-    grid-template-columns: 1fr;
-    min-height: auto;
-    height: auto;
-  }
-
-  .right_Side, .left_Side {
-    padding: 20px;
-  }
-
-  .profileText .imgBx {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .container {
-    margin: 10px;
-    display: flex; /* Ubah ke flex untuk mobile */
-    flex-direction: column; /* Tumpuk vertikal */
-    min-height: auto;
-    height: auto;
-  }
-
-  .left_Side, 
-  .right_Side {
-    width: 100%;
-    padding: 20px;
-    position: relative;
-  }
-}
-
-@media (max-width: 600px) {
-  .container {
-    margin: 0; /* Hilangkan margin di mobile kecil */
-    min-height: 0; /* Reset min-height */
-  }
-
-  html, body {
-    overflow-y: auto;
-  }
-
-  .profileText .imgBx {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media (max-width: 600px) {
-  .container {
-    margin: 0; /* Hilangkan margin di mobile kecil */
-    min-height: 0; /* Reset min-height */
-  }
-
-  html, body {
-    overflow-y: auto;
-  }
-
-  .profileText .imgBx {
-    width: 150px;
-    height: 150px;
   }
 }
